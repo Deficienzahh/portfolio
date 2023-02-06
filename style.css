@@ -1,7 +1,6 @@
 * {
-padding: 0;
-margin: 0;
-
+    padding:0%;
+    margin:0%;
 }
 
 body {
@@ -9,27 +8,104 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-header {
-    height: 608px;
-    background-color: #FFB100;
+
+.big-title {
+    padding-top: 70px;
+    padding-left: 30px;
+    font-size: 37px;
 }
 
-header h1 {
+
+
+
+.header {
+    height: 608px;
+    background-color: #FFB100;
+    width: 100%;
+}
+
+.header h1 {
     text-align: left;
     text-decoration: none;
     padding:30px;
-    padding-top: 90px;
-    padding-left: 100px;
+    padding-top: 50px;
+    padding-left: 120px;
     
 
 }
 
-header p {
+.header p {
    text-align: left;
-   padding-left: 100px;
+   padding-left: 120px;
 }
 
-header img {
-    width: 400px;
+.header img {
+    width: 450px;
     padding-left: 60%;
+    translate: -30px -230px;
+}
+
+
+
+.skill {
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.competenze h1 {
+    font-size:23px;
+    padding-left: 30px;
+}
+
+.competenze p {
+    padding-left: 30px;
+
+}
+
+.tool-title {
+    font-size: 23px;
+    padding-left: 30px;
+}
+
+.toolTitleCONTENT {
+    padding-left: 30px;
+}
+
+
+.footer {
+    background-color: black;
+    padding: 10px 50px;
+    color: white;
+    width: 100%;
+}
+
+.footer a {
+    color: white;
+}
+
+#contact {
+    padding-top: 70px;
+    padding-left: 30px;
+    font-size: 37px;
+    padding-bottom: 0px;
+}
+
+#discord-icon {
+    padding-left: 28px;
+    padding-top: 0px;
+}
+
+.discord p{
+   translate: 85px -38px;
+}
+
+#github-icon {
+    padding-left: 27px;
+    padding-top: 0px;
+    translate: 0px -35px;
+}
+
+
+.github p {
+    translate: 85px -76px;
 }
