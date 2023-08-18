@@ -42,7 +42,7 @@ body {
 .header img {
     width: 450px;
     padding-left: 60%;
-    translate: -30px -230px;
+    translate: -30px -270px;
 }
 
 
@@ -109,3 +109,4 @@ body {
 .github p {
     translate: 85px -76px;
 }
+
